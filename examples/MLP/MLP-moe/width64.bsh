@@ -1,0 +1,29 @@
+# This is a base shape file encoded in yaml
+# - `null` indicates a dimension is "finite", i.e. a non-"width" dimension
+# - a number indicates the base dimension of an "infinite" dimension, i.e. some notion of "width"
+fc_1.weight:
+- null
+- null
+fc_2.weight:
+- null
+- null
+fc_3.weight:
+- null
+- null
+moe_layer.experts.batched_fc1_bias:
+- 1
+- null
+moe_layer.experts.batched_fc1_w:
+- 1
+- null
+- null
+moe_layer.experts.batched_fc2_bias:
+- 1
+- null
+moe_layer.experts.batched_fc2_w:
+- 1
+- null
+- null
+moe_layer.gates.0.wg.weight:
+- 1
+- null
